@@ -6,3 +6,13 @@ it('renders without crashing', () => {
     const root = document.createElement('div');
     createRoot(root).render(<App />);
 });
+
+it('renders without crashing', () => {
+    const root = document.createElement('div');
+    createRoot(root).render(<App />);
+});
+
+it('renders without crashing', () => {
+    const root = document.createElement('div');
+    createRoot(root).render(<App />);
+});
