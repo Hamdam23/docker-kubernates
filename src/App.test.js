@@ -1,13 +1,8 @@
-// import React from "react";
-// import { createRoot } from 'react-dom/client';
-// import "./index.css";
-// import App from "./App";
-// import reportWebVitals from "./reportWebVitals";
-//
-// createRoot(document.getElementById("root")).render(
-//     <React.StrictMode>
-//         <App />
-//     </React.StrictMode>
-// );
-//
-// reportWebVitals();
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
+
+it('renders without crashing', () => {
+    const root = document.createElement('div');
+    createRoot(root).render(<App />);
+});
